@@ -6,7 +6,7 @@
 
 a {
     text-decoration: none;
-    color: rgb(61, 146, 201);
+    color: rgb(11, 46, 201);
 }
 a:hover,
 a:focus {
@@ -62,7 +62,7 @@ h3 {
 }
 .nav-item a {
     background: transparent;
-    border: 2px solid rgb(176, 202, 219);
+    border: 2px solid rgb(36, 52, 89);
     color: #fff;
     margin-top: 1em;
     letter-spacing: 0.05em;
@@ -77,20 +77,20 @@ h3 {
 
 .content-subhead {
     text-transform: uppercase;
-    color: #aaa;
-    border-bottom: 1px solid #eee;
-    padding: 0.4em 0;
-    font-size: 80%;
-    font-weight: 500;
+    color: #333;
+    border-bottom: 0px solid #eee;
+    padding: 0;
+    font-size: 150%;
+    font-weight: 700;
     letter-spacing: 0.1em;
 }
 
 .content {
-    padding: 2em 1em 0;
+    padding: 0;
 }
 
 .post {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 .post-title {
     font-size: 2em;
@@ -157,12 +157,12 @@ h3 {
 
 @media (min-width: 48em) {
     .content {
-        padding: 2em 3em 0;
-        margin-left: 25%;
+        padding: 0 1em 0;
+        margin-left: 15%;
     }
 
     .header {
-        margin: 80% 2em 0;
+        margin: 2em 3em 0;
         text-align: right;
     }
 
